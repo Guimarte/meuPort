@@ -5,6 +5,10 @@ body{
 background-color: black;
 }
 
+.openning{
+    visibility:hidden;
+    display:none
+}
 `;
 
 export default ConfigBkg

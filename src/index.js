@@ -1,13 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App'
-import Reset from  './components/body/reset'
+import Reset from './components/body/reset'
 import ConfigBkg from './components/body/bkg'
+
 ReactDOM.render(
   <React.StrictMode>
-   <Reset/>
-   <ConfigBkg/>
-   <App/> 
+    <Reset />
+    <ConfigBkg />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
